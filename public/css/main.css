@@ -1,0 +1,275 @@
+<style>
+    
+		.events {
+		  list-style: none;
+		  }
+
+		.callbacks_container {
+		  margin-bottom: 50px;
+		  position: relative;
+		  float: left;
+		  width: 100%;
+		  }
+
+		.callbacks {
+		  position: relative;
+		  list-style: none;
+		  overflow: hidden;
+		  width: 100%;
+		  padding: 0;
+		  margin: 0;
+		  }
+
+		.callbacks li {
+		  position: absolute;
+		  width: 100%;
+		  left: 0;
+		  top: 0;
+		  }
+
+		.callbacks img {
+		  display: block;
+		  position: relative;
+		  z-index: 1;
+		  height: auto;
+		  width: 100%;
+		  border: 0;
+		  }
+
+		.callbacks .caption {
+		  display: block;
+		  position: absolute;
+		  z-index: 2;
+		  font-size: 1.2em;
+		  text-shadow: none;
+		  color: #fff;
+		  background: #000;
+		  background: rgba(0,0,0, .8);
+		  left: 0;
+		  right: 0;
+		  bottom: 0;
+		  padding: 10px 20px;
+		  margin: 0;
+		  max-width: 678px;
+		  }
+
+		.callbacks_nav {
+		  position: absolute;
+		  -webkit-tap-highlight-color: rgba(0,0,0,0);
+		  top: 52%;
+		  left: 0;
+		  opacity: 0.7;
+		  z-index: 3;
+		  text-indent: -9999px;
+		  overflow: hidden;
+		  text-decoration: none;
+		  height: 61px;
+		  width: 38px;
+		  background: transparent url("themes/themes.gif") no-repeat left top;
+		  margin-top: -45px;
+		  }
+
+		.callbacks_nav:active {
+		  opacity: 1.0;
+		  }
+
+		.callbacks_nav.next {
+		  left: auto;
+		  background-position: right top;
+		  right: 0;
+		  }
+
+		#slider3-pager a {
+		  display: inline-block;
+		}
+
+		#slider3-pager img {
+		  float: left;
+		}
+
+		#slider3-pager .rslides_here a {
+		  background: transparent;
+		  box-shadow: 0 0 0 2px #666;
+		}
+
+		#slider3-pager a {
+		  padding: 0;
+		}
+
+		@media screen and (max-width: 800px) {
+		  .callbacks_nav {
+		    top: 47%;
+		    }
+		  }
+		footer{margin-top: 3em;}
+    footer  p{margin:1px}
+		body{font-size:1.5 }
+		#logo{width:70%}
+    .vertical-centered-text {
+      -ms-display: flex;
+      display: flex;
+     /* alineacion vertical */
+       align-items: center;
+       /* alineacion horizontal */
+     justify-content: center;
+      }
+		#twit{display:scroll;position:fixed;bottom:225px;right:0px;}
+    .img-max{width: 100%}
+		.upper{text-transform: uppercase;}
+
+     	.rslides {
+        position: relative;
+        list-style: none;
+        overflow: hidden;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        }
+
+        .rslides li {
+        -webkit-backface-visibility: hidden;
+        position: absolute;
+        display: none;
+        width: 100%;
+        left: 0;
+        top: 0;
+        }
+
+        .rslides li:first-child {
+        position: relative;
+        display: block;
+        float: left;
+        }
+
+       .rslides img {
+       height: auto;
+		max-width: 100%;
+       display: block;
+       height: auto;
+       float: left;
+       width: 100%;
+       border: 0;
+       }
+       .social-sidebar-buttons {
+       width: 32px;
+       margin-left: 1100px;
+       }
+       .social-facebook {
+           height: 48px;
+           width: 48px;
+           margin:0px 0 0 48px;
+           float: left;
+           -webkit-transition: all ease 0.3s;
+           -moz-transition: all ease 0.3s;
+           -o-transition: all ease 0.3s;
+           -ms-transition: all ease 0.3s;
+           transition: all ease 0.3s;
+        position:fixed;
+        right:0px;
+        z-index:1000;
+        top:200px;
+
+       }
+       .social-facebook:hover {
+           background-position: 0px -48px;
+           box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+       }
+       .social-twitter {
+           height: 48px;
+           width: 48px;
+           margin:0px 0 0 48px;
+           float: left;
+           -webkit-transition: all ease 0.3s;
+           -moz-transition: all ease 0.3s;
+           -o-transition: all ease 0.3s;
+           -ms-transition: all ease 0.3s;
+           transition: all ease 0.3s;
+        position:fixed;
+        right:0px;
+        z-index:1000;
+        top:250px;
+        
+       }
+       .social-twitter:hover {
+           background-position: 0px -48px;
+           box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+       }
+       .social-google {
+           height: 48px;
+           width: 48px;
+           margin:0px 0 0 48px;
+           float: left;
+           -webkit-transition: all ease 0.3s;
+           -moz-transition: all ease 0.3s;
+           -o-transition: all ease 0.3s;
+           -ms-transition: all ease 0.3s;
+           transition: all ease 0.3s;
+        position:fixed;
+        right:0px;
+        z-index:1000;
+        top:300px;
+        
+       }
+       .social-google:hover {
+           background-position: 0px -48px;
+           box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+       }
+       .social-youtube {
+           height: 48px;
+           width: 48px;
+           margin:0px 0 0 48px;
+           float: left;
+           -webkit-transition: all ease 0.3s;
+           -moz-transition: all ease 0.3s;
+           -o-transition: all ease 0.3s;
+           -ms-transition: all ease 0.3s;
+           transition: all ease 0.3s;
+        position:fixed;
+        right:0px;
+        z-index:1000;
+        top:350px;
+        
+       }
+       .social-youtube:hover {
+           background-position: 0px -48px;
+           box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+       }
+       .social-rss {
+           height: 48px;
+           width: 48px;
+           margin:0px 0 0 48px;
+           float: left;
+           -webkit-transition: all ease 0.3s;
+           -moz-transition: all ease 0.3s;
+           -o-transition: all ease 0.3s;
+           -ms-transition: all ease 0.3s;
+           transition: all ease 0.3s;
+        position:fixed;
+        right:0px;
+        z-index:1000;
+        top:400px;
+        
+       }
+       .social-rss:hover {
+           background-position: 0px -48px;
+           box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+       }
+       .twitter-hover {
+           background-image: url('http://3.bp.blogspot.com/-aW0EJLzWqQQ/U-kFYKUFEPI/AAAAAAAAVZc/uFV9N6kQEts/s1600/twitter-hover.png');
+       }
+       .facebook-hover {
+           background-image: url('http://1.bp.blogspot.com/-OUx8NjCmOPY/U-kFMvueC5I/AAAAAAAAVZU/c9GltNEzfwI/s1600/facebook-hover.png');
+        
+       }
+       .google-hover {
+           background-image: url('http://2.bp.blogspot.com/-eBa2XYdq3Z0/U-kFh6_wPmI/AAAAAAAAVZk/bYRySdPNLZs/s1600/google-hover.png');
+       }
+       .youtube-hover {
+           background-image: url('http://3.bp.blogspot.com/-WgqHTGHIbwU/U-kFrohrovI/AAAAAAAAVZs/VDYpeZL4REA/s1600/youtube-hover.png');
+       }
+       .pagination {
+    height: 36px;
+    margin: 18px 0;
+}
+</style>
+  
