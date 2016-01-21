@@ -1,229 +1,214 @@
 <!DOCTYPE html>
-<html lang="en" data-ng-app="aplicacion">
+<html lang="es">
 <head>
-
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>CENTRO DE BACHILLERATO TECNOLOGICO INDUSTRIAL Y DE SERVICIOS N° 251</title>
-	<meta name="google-site-verification" content="rN8HXDIxnlqyQqZCxVluJtFnXldnF2kIXAT_whM5Ys4">
-	<meta name="description" content="CENTRO DE BACHILLERATO TECNOLOGICO INDUSTRIAL Y DE SERVICIOS Nº 251">
-	<meta name="keywords" content="itssat">
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="public/css/main.css">
-	<script src="vendor/jquery.js"></script>
-	<script src="vendor/bootstrap.min.js"></script>
-	<script src="vendor/responsiveslides.min.js"></script>
-	<script src="vendor/angular.js"></script>
-
+	<title>Lenrique</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="public/css/normalize.css">
+	<link rel="stylesheet" href="public/css/main.css">
 </head>
 <body>
-<!-- inicio del header logo cbtis -->
-<div class="vertical-centered-text">
-  <img src="public/img/LOGOCBTIS.jpg" />
-</div>
-<!-- fin del header logo cbtis -->	
-<!-- Incicio botones de redes sociales -->
-	<a href="https://www.facebook.com/cbtis251.oficial?" alt="Facebook" target="_blank">
-		<div class="social-facebook facebook-hover"></div>
-	</a>
-	<a href="https://twitter.com/Cbtis251" alt="Twitter" target="_blank">
-		<div class="social-twitter twitter-hover"></div>
-	</a>
-		<a href="https://plus.google.com/u/0/101991047009535514255/posts" alt="Google+" target="_blank">
-			<div class="social-google google-hover"></div>
-		</a>
-	<a href="https://www.youtube.com/?gl=MX&hl=es-419" alt="Youtube" target="_blank">
-		<div class="social-youtube youtube-hover"></div>
-	</a>
-	
-
-<!-- Fin botones de redes sociales -->
-
-	<div class="container">
-	<!-- inicio de menu -->
-		<div class="navbar navbar-inverse">
-		    <div class="navbar-header">
-		        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-		        </button>
-		        <a class="navbar-brand" href="#/slider">CBTIS 251</a>
-		    </div>
-		    <div class="navbar-collapse collapse navbar-inverse-collapse">
-		        <ul class="nav navbar-nav">
-		        <!-- link con menu -->
-		          	<li>
-		            	<a href="#/inicio">Inicio</a>
-		            </li>	
-		            <li>
-		            	<a href="#/noticias">Noticias</a>
-		            </li>	                 
-		            <li>
-		            	<a href="#/direccion">Dirección</a>
-		            </li>
-		            <!-- link sin menu fin -->
-		            <li class="dropdown">
-		                <a href="" class="dropdown-toggle" data-toggle="dropdown">Información General<b class="caret"></b></a>
-		                <ul class="dropdown-menu">
-		                    <li>
-		                    	<a href="#/informaciondelplantel ">Información del Plantel</a>
-		                    </li>
-		                    <li>
-		                    	<a href="#/historiadelplantel">Historia del Plantel</a>
-		                    </li>		                
-		                    <li>
-		                    	<a href="#galeriadefotos">Galeria de Fotos</a>
-		                    </li>
-		                </ul>
-		            </li>
-		            <li class="dropdown">
-		                <a href="" class="dropdown-toggle" data-toggle="dropdown">De Interés<b class="caret"></b></a>
-		                <ul class="dropdown-menu">
-		                    <li>
-		                    	<a href="#/reformaeducativa ">Reforma Educativa</a>
-		                    </li>
-		                    <li>
-		                    	<a href="#/reformaintegral">RIEMS</a>
-		                    </li>
-		                    <li>
-		                    	<a href="#/convocatoria">Convocatoria</a>
-		                    </li>
-		                    <li>
-		                    	<a href="http://cbtis251.edu.mx/webmail">Correo Institucional</a>
-		                    </li>
-		                    <li>
-		                    	<a href="http://cbtis251.edu.mx/moodle">Moodle</a>
-		                    </li>
-		                </ul>
-		            </li>
-		            <li class="dropdown">
-		                <a href="" class="dropdown-toggle" data-toggle="dropdown">Descargas<b class="caret"></b></a>
-		                <ul class="dropdown-menu">
-		                    <li>
-		                    	<a href="#/tutoriales">Tutoriales</a>
-		                    </li>
-		                    <li>
-		                    	<a href="#/descargas">Descargas</a>
-		                	</li>
-		                </ul>
-		            </li>
-		            <li class="dropdown">
-		                <a href="" class="dropdown-toggle" data-toggle="dropdown">Tutorias<b class="caret"></b></a>
-		                <ul class="dropdown-menu">
-		                    <li>
-		                    	<a href="http://www.cbtis251.edu.mx/tutorias/public/">Soy Maestro</a>
-		                    </li>
-		                    <li>
-		                    	<a href="http://www.cbtis251.edu.mx/tutorias/app/alumno/public/">Soy Alumno</a>
-		                	</li>
-		                </ul>
-		            </li>         
-		    </div>
-		</div>	
-	<!-- fin de menu -->
-	</div>	
-		
-	<div class="container">
-		<div class="row">
-		<!-- Menu vertical -->
-			<div class="col-md-3 upper">
-				<ul class="nav nav-pills nav-stacked">
-					<li class="active"><a href="#/informacion">Información</a></li>
-					<li class="active dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown" href="">Especialidades <span class="caret"></span>
-						</a>
-						<ul class="dropdown-menu">
-							<li><a href="#/logistica">Especialidad en Logistica</a></li>
-							<li class="divider"></li>
-							<li><a href="#/mantenimiento">Especialidad en Técnico en Soporte y Mantenimiento de Equipo de Cómputo</a></li>
-						</ul>
-					</li>
-					<li class="active dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown" href="">Alumnos 
-							<span class="caret"></span>
-						</a>
-						<ul class="dropdown-menu">
-							<li><a href="#/horario">Horario</a></li>
-							<li class="divider"></li>
-							<li><a href="#/reticula">Reticula</a></li>
-							<li><a href="#/preinscripciones">Preinscripcion</a></li>
-							<li><a href="#/inscripciones">Inscripcion</a></li>
-							<li><a href="#/reinscripciones">Reinscripcion</a></li>
-							<li><a href="#/serviciosocial">Servicio Social</a></li>
-							<li><a href="#/practicaprofesional">Practica Profesional</a></li>
-							<li><a href="#/titulacion">Titulación</a></li>
-							<li><a href="#calificaciones/">Calificaciones</a></li>
-						</ul>
-					</li>
-					<li class="active dropdown btn-success">
-						<a class="dropdown-toggle" data-toggle="dropdown" href="">Programa de Apoyo Academico 
-							<span class="caret"></span>
-						</a>
-						<ul class="dropdown-menu">
-							<li><a href="#/construye-t">Construye-T</a></li>
-							<li class="divider"></li>
-							<li><a href="#/programajovenes">Programa Jovenes</a></li>
-							<li><a href="#/yonoabandono">Yo no Abandono</a></li>
-							<li><a href="#/emprendedores">Emprendedores</a></li>
-							<li><a href="#/becas">Becas</a></li>
-							<li><a href="#/microsoft">Microsoft</a></li>
-							<li><a href="#/asesorias">Asesorias</a></li>
-							<li><a href="#/pruebaenlace">Prueba Enlace</a></li>
-							<li><a href="#/proteccioncivil">Protección Civil</a></li>
-						</ul>
-	                </li>
-				    <li class="active dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown" href="">Depto-Institucionales
-							<span class="caret"></span>
-	               		</a>
-						<ul class="dropdown-menu">
-							<li><a href="#/serviciosdocentes">Servicios Docentes</a></li>
-							<li class="divider"></li>
-							<li><a href="#/vinculacion">Vinculación</a></li>
-							<li><a href="#/serviciosescolares">Servicios Escolares</a></li>
-							<li><a href="#/subdireccionacademica">Subdirección Academica</a></li>
-							<li><a href="#/serviciosadministrativos">Servicios Administrativos</a></li>
-				    	</ul>
-				    </li>
-					<li class="active"><a href="#/directorio">Directorio</a></li>
-				</ul>
+	<!--Menu-->
+	<header>
+		<nav>
+			<a href=""><i class="fa fa-diamond"></i> Lenrique</a>
+			<div class="nav-link">
+				<a href="">Empleo</a>
+				<a href="">Salud</a>
+				<a href="">Contacto</a>
 			</div>
-		<!-- Fin Menu vertical -->
-
-		<!-- twitter-->
-			<div class="col-md-6">
-				<section data-ng-view></section>
-			</div>
-			<div class="col-md-3 text-center">
-				<ul class="nav nav-pills nav-stacked">
-				<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/Cbtis251" data-widget-id="568288828603891712">Tweets por el @Cbtis251.</a>
-		        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>			
-			</div>
-		<!-- twitter -->
-
-		<!-- Inicio del pie de pagina Footer -->
-				<div class="row">
-				<div class="col-md-12">
-					<footer class="text-center upper">
-						 <p class="text-muted">Centro de Bachillerato Tecnológico Industrial y de Servicios N° 251
-						 <p class="text-muted"> Camino a Tabanabalapan S/N Col.El cbtis, 
-						  CP:95830.</p> 
-						 <p class="text-muted">Teléfono (294) 9470303 Santiago Tuxtla,Veracruz</p>
-					</footer>
+		</nav>
+		<div class="home">
+			<img src="public/img/bg.png">
+			
+		</div>
+	</header>
+	<!--Contenido-->
+	<section class="section">
+		<article>
+			<img src="public/img/img2.jpg">
+			<div class="article-header">
+				<span><i class="fa fa-thumbs-up"></i> 2</span>
+				<span><i class="fa fa-clock-o"></i> 19 Jun 15</span>
+				<div class="badges">
+					<span class="badge bg-success">Empleo</span>
+					<span class="badge bg-default">Dinero</span>
 				</div>
 			</div>
-
-
-
-		<!-- FIn del pie de pagina Footer -->
-	</div>
-	<script src="public/app.js"></script>
-	<script src="public/route.js"></script>
-	<script>
-	  $(function() {
-	    $(".rslides").responsiveSlides();
-	  });
-	</script>
+			<div class="description">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<a href="" class="btn btn-default">Ver post</a>
+			</div>
+		</article>
+		<article>
+			<img src="public/img/img1.jpg">
+			<div class="article-header">
+				<span><i class="fa fa-thumbs-up"></i> 2</span>
+				<span><i class="fa fa-clock-o"></i> 19 Jun 15</span>
+				<div class="badges">
+					<span class="badge bg-primary">Salud</span>
+					<span class="badge bg-success">Empleo</span>
+				</div>
+			</div>
+			<div class="description">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<a href="" class="btn btn-default">Ver post</a>
+			</div>
+		</article>
+		<article>
+			<img src="public/img/img3.jpg">
+			<div class="article-header">
+				<span><i class="fa fa-thumbs-up"></i> 2</span>
+				<span><i class="fa fa-clock-o"></i> 19 Jun 15</span>
+				<div class="badges">
+					<span class="badge bg-primary">Salud</span>
+				</div>
+			</div>
+			<div class="description">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<a href="" class="btn btn-default">Ver post </a>
+			</div>
+		</article>
+		<article>
+			<img src="public/img/img5.png">
+			<div class="article-header">
+				<span><i class="fa fa-thumbs-up"></i> 2</span>
+				<span><i class="fa fa-clock-o"></i> 19 Jun 15</span>
+				<div class="badges">
+					<span class="badge bg-success">Empleo</span>
+					<span class="badge bg-default">Dinero</span>
+				</div>
+			</div>
+			<div class="description">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<a href="" class="btn btn-default">Ver post </a>
+			</div>
+		</article>
+		<article>
+			<img src="public/img/img4.jpg">
+			<div class="article-header">
+				<span><i class="fa fa-thumbs-up"></i> 2</span>
+				<span><i class="fa fa-clock-o"></i> 19 Jun 15</span>
+				<div class="badges">
+					<span class="badge bg-primary">Salud</span>
+					<span class="badge bg-success">Empleo</span>
+				</div>
+			</div>
+			<div class="description">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<a href="" class="btn btn-default">Ver post </a>
+			</div>
+		</article>
+		<article>
+			<img src="public/img/img2.jpg">
+			<div class="article-header">
+				<span><i class="fa fa-thumbs-up"></i> 2</span>
+				<span><i class="fa fa-clock-o"></i> 19 Jun 15</span>
+				<div class="badges">
+					<span class="badge bg-primary">Salud</span>
+					<span class="badge bg-default">Dinero</span>
+				</div>
+			</div>
+			<div class="description">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<a href="" class="btn btn-default">Ver post </a>
+			</div>
+		</article>
+		<article>
+			<img src="public/img/img1.jpg">
+			<div class="article-header">
+				<span><i class="fa fa-thumbs-up"></i> 4599</span>
+				<span><i class="fa fa-clock-o"></i> 19 Jun 15</span>
+				<div class="badges">
+					<span class="badge bg-success">Empleo</span>
+				</div>
+			</div>
+			<div class="description">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<a href="" class="btn btn-default">Ver post </a>
+			</div>
+		</article>
+		<article>
+			<img src="public/img/img3.jpg">
+			<div class="article-header">
+				<span><i class="fa fa-thumbs-up"></i> 1</span>
+				<span><i class="fa fa-clock-o"></i> 19 Jun 15</span>
+				<div class="badges">
+					<span class="badge bg-primary">Salud</span>
+					<span class="badge bg-success">Empleo</span>
+					<span class="badge bg-default">Dinero</span>
+				</div>
+			</div>
+			<div class="description">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<a href="" class="btn btn-default">Ver post </a>
+			</div>
+		</article>
+		<article>
+			<img src="public/img/img5.png">
+			<div class="article-header">
+				<span><i class="fa fa-thumbs-up"></i> 65</span>
+				<span><i class="fa fa-clock-o"></i> 19 Jun 15</span>
+				<div class="badges">
+					<span class="badge bg-primary">Salud</span>
+					<span class="badge bg-success">Empleo</span>
+					<span class="badge bg-default">Dinero</span>
+				</div>
+			</div>
+			<div class="description">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<a href="" class="btn btn-default">Ver post </a>
+			</div>
+		</article>
+		<article>
+			<img src="public/img/img4.jpg">
+			<div class="article-header">
+				<span><i class="fa fa-thumbs-up"></i> 278</span>
+				<span><i class="fa fa-clock-o"></i> 19 Jun 15</span>
+				<div class="badges">
+					<span class="badge bg-primary">Salud</span>
+					<span class="badge bg-success">Empleo</span>
+					<span class="badge bg-default">Dinero</span>
+				</div>
+			</div>
+			<div class="description">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<a href="" class="btn btn-default">Ver post </a>
+			</div>
+		</article>
+		<article>
+			<img src="public/img/img6.jpg">
+			<div class="article-header">
+				<span><i class="fa fa-thumbs-up"></i> 2</span>
+				<span><i class="fa fa-clock-o"></i> 19 Jun 15</span>
+				<div class="badges">
+					<span class="badge bg-primary">Salud</span>
+				</div>
+			</div>
+			<div class="description">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<a href="" class="btn btn-default">Ver post </a>
+			</div>
+		</article>
+		<article>
+			<img src="public/img/img2.jpg">
+			<div class="article-header">
+				<span><i class="fa fa-thumbs-up"></i> 1500</span>
+				<span><i class="fa fa-clock-o"></i> 19 Jun 15</span>
+				<div class="badges">
+					<span class="badge bg-success">Empleo</span>
+					<span class="badge bg-default">Dinero</span>
+				</div>
+			</div>
+			<div class="description">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<a href="" class="btn btn-default">Ver post </a>
+			</div>
+		</article>
+	</section>
+	<!--Footer-->
+	<footer>
+		2016 <a href="https://www.facebook.com/LuisGuatemalaMtz">Luis Enrique Guatemala Martínez</a>
+	</footer>
 </body>
 </html>
