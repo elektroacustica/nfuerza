@@ -1,6 +1,10 @@
 /*Fuentes*/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Carrois+Gothic);
+/*Fin de fuentes*/
+*::selection{
+	background: rgba(26, 188, 156,1.0);
+}
 a{
 	text-decoration: none;
 }
@@ -16,14 +20,13 @@ article img{
 	width: 100%;
 }
 body{
-	height: 100%;
-	background: url('../img/fondo.png') ;
-	background-size: 10px 10px;
+	background: rgb(236, 240, 241) ;
 	font-family: 'Open Sans', sans-serif;
+	position: relative;
 }
 footer, nav{
 	color: white;
-	background: #3498db;
+	background: rgb(52, 152, 219);
 }
 footer a{
 	color: white;
@@ -42,6 +45,7 @@ li{
 }
 nav{
 	display: flex;
+	top: 0;
 	width: 100%;
 	position: fixed;
 	justify-content: space-around;
@@ -92,9 +96,21 @@ ul{
 	text-transform: uppercase;
 	text-align: center;
 }
+.btn-bg{
+	font-size: 1.4em;
+	font-weight: 700;
+	border-radius: 1px;
+	padding: .7em 1.5em;
+	text-transform: uppercase;
+	border-bottom: 5px rgba(243, 156, 18,1.0) solid;
+}
 .btn-default{
 	border:2px solid #2FB556;
 	background: #5fcf80;
+}
+.btn-warning{
+	background: rgba(241, 196, 15,1.0);
+	color: white;
 }
 .description{
 	text-align: left;
@@ -104,6 +120,11 @@ ul{
 }
 .description .btn{
 	width: 6em;
+}
+.content{
+	display: flex;
+	flex-direction: column;
+	margin: 0 4em;
 }
 /* Icons */
 .fa-diamond{
@@ -117,11 +138,20 @@ ul{
 }
 /* End Icons */
 .home{
+	//background: rgb(41, 128, 185);
+	background-image: url('../img/bg2.png');
+	background-size: cover;
+	background-attachment: fixed;
 	width: 100%;
 	text-align: center;
+	color: white;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
-.home img{
-	width: 100%;
+.home div{
+	
 }
 .nav-link a{
 	margin: 0 .7em;
