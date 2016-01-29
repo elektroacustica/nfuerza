@@ -1,0 +1,48 @@
+/*Imports*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Carrois+Gothic");
+/*Fin de imports*/
+/*Variables*/
+/*Fin de variables*/
+*::selection {
+  background: #e74c3c;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+}
+li {
+  list-style: none;
+}
+nav {
+  background: #3498db;
+  padding: 1.4em;
+  font-family: 'Carrois Gothic', sans-serif;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+ul li a {
+  color: #fff;
+}
+/*Clases*/
+.align-around {
+  -webkit-box-pack: distribute;
+  -moz-box-pack: distribute;
+  -o-box-pack: distribute;
+  -ms-flex-pack: distribute;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+.flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+}
+/*Fin de clases*/

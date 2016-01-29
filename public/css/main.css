@@ -37,9 +37,6 @@ footer{
 	padding: 1em;
 	text-transform: uppercase;
 }
-html{
-	height: 100%;
-}
 li{
 	list-style: none;
 }
@@ -105,8 +102,8 @@ ul{
 	border-bottom: 5px rgba(243, 156, 18,1.0) solid;
 }
 .btn-default{
-	border:2px solid #2FB556;
-	background: #5fcf80;
+	border:2px solid #2980b9;
+	background: #3498db;
 }
 .btn-warning{
 	background: rgba(241, 196, 15,1.0);
@@ -141,7 +138,6 @@ ul{
 	//background: rgb(41, 128, 185);
 	background-image: url('../img/bg2.png');
 	background-size: cover;
-	background-attachment: fixed;
 	width: 100%;
 	text-align: center;
 	color: white;
@@ -149,9 +145,6 @@ ul{
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-}
-.home div{
-	
 }
 .nav-link a{
 	margin: 0 .7em;

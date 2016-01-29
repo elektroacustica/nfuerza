@@ -1,0 +1,66 @@
+/*Imports*/
+@import 'nib'
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700')
+@import url('https://fonts.googleapis.com/css?family=Carrois+Gothic')
+/*Fin de imports*/
+
+/*Variables*/
+textSelect = #e74c3c
+colorNav = #3498db
+all = 100%
+/*Fin de variables*/
+*::selection
+	background textSelect
+
+a
+	text-decoration none
+
+
+body
+	font-family 'Open Sans', sans-serif
+	position relative
+
+li
+	list-style none
+
+nav
+	background colorNav
+	font-family 'Carrois Gothic', sans-serif
+	position fixed
+	width all
+	top 0
+	align-items center
+	font-weight 400
+ 
+ul li a
+	color white
+	padding 0 1.5em
+	font-size .9em
+/*Clases*/
+.align-around
+	justify-content space-around
+.align-center
+	justify-content center
+.article
+	width 70%;
+.brand
+	font-size 1.1em
+
+.flex
+	display flex
+	flex-wrap wrap
+
+.header
+	background #2ecc71
+
+.title
+	font-size 4em
+	color white
+	text-align center
+	text-transform uppercase
+	font-weight 700
+	
+.uppercase
+		text-transform uppercase
+	
+/*Fin de clases*/
