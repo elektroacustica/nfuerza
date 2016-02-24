@@ -109,6 +109,11 @@ ul{
 	background: rgba(241, 196, 15,1.0);
 	color: white;
 }
+.content{
+	display: flex;
+	flex-direction: column;
+	margin: 0 4em;
+}
 .description{
 	text-align: left;
 	font-size: .8em;
@@ -117,11 +122,6 @@ ul{
 }
 .description .btn{
 	width: 6em;
-}
-.content{
-	display: flex;
-	flex-direction: column;
-	margin: 0 4em;
 }
 /* Icons */
 .fa-diamond{
@@ -135,7 +135,6 @@ ul{
 }
 /* End Icons */
 .home{
-	//background: rgb(41, 128, 185);
 	background-image: url('../img/bg2.png');
 	background-size: cover;
 	width: 100%;
@@ -145,6 +144,11 @@ ul{
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+}
+.home-empleo{
+	background: url('../img/empleo.png');
+	background-size: cover;
+	background-position: center;
 }
 .nav-link a{
 	margin: 0 .7em;
